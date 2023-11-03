@@ -14,11 +14,10 @@
 </script>
 
 <template>
+  <AppHero/>
   <div>
     <h1>{{ message }}</h1>
   </div>
-  <AppHero/>
-  <HelloWorld msg="Vsite + Vue" />
 </template>
 
 <style scoped>

@@ -2,13 +2,17 @@
 </script>
 
 <template>
-    <div>
-       <img src="../assets/02.webp" alt="">
-    </div>
+    <section class="hero">
+    </section>
 </template>
 
 <style scoped>
-    img {
-        max-width: 300px;
+    .hero {
+        background-image: url(../assets/02.webp);
+        background-size: cover;
+        background-position: center;
+        min-height: 700px;
+        text-align: center;
+        width: 100vw;
     }
 </style>
